@@ -5,7 +5,12 @@ import { navLinks } from '@/constant/Constant';
 import Link from 'next/link';
 
 
-const Nav = () => {
+type Props = {
+  openNav: () => void;
+}
+
+const Nav = ({ openNav }: Props) => {
+
   const [navBg, setNavBg] = useState(false);
   const [isClient, setIsClient] = useState(false); // Track if the component is mounted on the client
 
@@ -50,10 +55,12 @@ const Nav = () => {
 
         {/* Burger Menu */}
         <div className="flex items-center space-x-4">
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+
+        </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

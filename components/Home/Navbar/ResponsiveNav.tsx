@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import React from 'react'
 import Nav from './Nav'
 import MobileNav from './MobileNav'
@@ -19,8 +19,11 @@ const ResponsiveNav = () => {
     <div>
         <Nav openNav = {handleNavShow}/>
         <MobileNav showNav = {showNav} closeNav={handleNavHide}/>
+        
     </div>
   )
 }
 
+
 export default ResponsiveNav
+

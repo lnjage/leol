@@ -30,7 +30,7 @@ const Nav = () => {
   }
 
   return (
-    <div className={`fixed ${navBg ? "bg-blue-50 shadow-md" : "bg-transparent"} w-full transition-all duration-200 h-[12vh] z-[1000]`}>
+    <div className={`fixed ${navBg ? "bg-blue-50 shadow-md" : "fixed"} w-full transition-all duration-200 h-[12vh] z-[1000]`}>
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <h1 className="text-xl md:text-2xl font-bold">
@@ -42,7 +42,7 @@ const Nav = () => {
            {navLinks.map((link) => {
             return (
               <Link href={link.url} key={link.id}>
-                <a className="nav__link">{link.label}</a> {/* Apply nav__link directly on the <a> */}
+                <p className="nav__link">{link.label}</p> {/* Apply nav__link directly on the <a> */}
               </Link>
             );
   })}

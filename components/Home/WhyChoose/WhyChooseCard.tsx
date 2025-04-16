@@ -17,12 +17,18 @@ const WhyChooseCard = ({ image, title, linkText }: Props) => {
         height={80}
         className="object-contain mx-auto"
       />
-      <h1 className="text-lg mt-5 mb-5 font-semibold text-gray-800">
+      <h1 className="text-lg mt-5 mb-5 font-semibold text-blue-400">
         {title}
       </h1>
-      <a href="#" className="text-blue-600 underline">
-        {linkText}
-      </a>
+
+    <p className='text-gray-600 text-center font-medium text-sm mb-7'>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aspernatur beatae dolorem illum, animi repellat quae voluptatum dolore quibusdam incidunt delectus. Saepe obcaecati debitis neque voluptate corporis, reprehenderit deserunt amet?
+    </p>
+    
+    <p className = "text-center font-sans text-black hover:text-blue-600 transition-all duration-200 cursor-pointer">
+      {linkText} &#8594;
+    </p>
+    
     </div>
   )
 }

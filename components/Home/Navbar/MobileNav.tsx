@@ -42,3 +42,4 @@ const MobileNav = ({closeNav,showNav}:Props) => {
 )
 }
 export default MobileNav;
+

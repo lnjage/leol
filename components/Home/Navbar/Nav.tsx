@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { navLinks } from '@/constant/Constant';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 type Props = {
@@ -38,9 +39,10 @@ const Nav = ({ openNav }: Props) => {
     <div className={`fixed ${navBg ? "bg-blue-50 shadow-md" : "fixed"} w-full transition-all duration-200 h-[12vh] z-[1000]`}>
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
-        <h1 className="text-xl md:text-2xl font-bold">
-          <span className="text-3xl md:text-4xl text-blue-500">L</span>eol
-        </h1>
+        <div className="flex items-center space-x-2">
+          <Image src="/leol.png" alt="Leol Logo" width={64} height={64} />
+            
+</div>
 
         {/* NavLinks */}
         <div className="hidden lg:flex items-center space-x-10">

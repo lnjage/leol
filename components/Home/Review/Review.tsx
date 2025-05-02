@@ -22,6 +22,30 @@ const responsive = {
     }
   }
 
+  const reviews = [
+    {
+      image: "/icon.png",
+      name: "Martin mwiti",
+      comment: "Friendly and helpful customer service!"
+    },
+    {
+      name: "Japhlet Munene",
+      image: "/icon.png",
+      comment: "really appreciate the professionalism, courtesy, dedication, sincerity, speed and cooperation you  have extended to me"
+    },
+    {
+      name: "Paul Njuguna",
+      image: "/icon.png",
+      comment: "Great TAT especially for us in matatu business who need the insurance certificate very fast"
+    },
+    {
+      name: "Joseph",
+      image: "/icon.png",
+      comment: "Well conversant with the industry"
+    }
+  ];
+  
+
 const Review = () => {
   return (
     <div className= "pt-16 pb-16 bg-[#fcf6fa]">
@@ -30,18 +54,22 @@ const Review = () => {
         </h1>
         <div className='mt-20 w-[90%] md:w-[80%] mx-auto'>
             <Carousel 
-            arrows={false} 
+            arrows={true} 
             autoPlay={true}
             autoPlaySpeed={5000}
             infinite
             responsive={responsive}
             showDots
             >
-            <ReviewCard name="" image="/icon.png"/>
-            <ReviewCard name="" image="/icon.png"/>
-            <ReviewCard name="" image="/icon.png"/>
-            <ReviewCard name="" image="/icon.png"/>
-            
+           {reviews.map((review, index) => (
+        <ReviewCard 
+          key={index}
+          image={review.image}
+          comment={review.comment}
+          name={review.name}
+        />
+))}
+
             
 
             </Carousel>

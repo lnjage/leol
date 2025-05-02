@@ -12,22 +12,22 @@ const WhyChoose: React.FC = () => {
         <WhyChooseCard
           image="/safetrust.png"
           title="Safe and Trusted"
-          linkText="Learn More"
+          description="Our reputation is built on years of reliability, transparency, and delivering results our clients can count on."
         />
         <WhyChooseCard
           image="/support.png"
           title="Dependable Customer Support"
-          linkText="Learn More"
+          description="We’re here when you need us — with real people ready to help, answer questions, and guide you every step of the way."
         />
         <WhyChooseCard
           image="/fast.png"
           title="Fast & Hassle-Free Process"
-          linkText="Learn More"
+          description="We value your time. Our simplified application and claim processes ensure efficiency without the stress."
         />
         <WhyChooseCard
           image="/coverage.png"
           title="Comprehensive Coverage Options"
-          linkText="Learn More"
+          description="From personal to business insurance, we offer plans that fit your life, your needs, and your peace of mind."
         />
       </div>
     </div>

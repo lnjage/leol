@@ -21,7 +21,7 @@ const Partners = () => {
           Our Partners
         </h1>
 
-      <div className="bg-white py-10 overflow-hidden">
+        <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
         <div className="relative w-full">
           <div className="flex animate-marquee space-x-10">
             {[...partners, ...partners].map((logo, index) => (

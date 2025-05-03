@@ -5,17 +5,24 @@ import Review from './Review/Review'
 import Footer from './Footer/Footer'
 import Partners from './Partners/Partners'
 
-
 const Home = () => {
   return (
     <div className="overflow-hidden">
-      <Hero/>
-      <WhyChoose/>
-      <Review/>
-      <Partners/>
-      <Footer />
-    
-
+      <section id="Hero">
+        <Hero />
+      </section>
+      <section id="WhyChoose">
+        <WhyChoose />
+      </section>
+      <section id="Review">
+        <Review />
+      </section>
+      <section id="Partners">
+        <Partners />
+      </section>
+      <section id="Footer">
+        <Footer />
+      </section>
     </div>
   )
 }

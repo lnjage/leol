@@ -12,22 +12,22 @@ const WhyChoose: React.FC = () => {
         <WhyChooseCard
           image="/safetrust.png"
           title="Safe and Trusted"
-          description="Our reputation is built on years of reliability, transparency, and delivering results our clients can count on."
+          description="Our reputation is built on years of reliability, transparency, and delivering results our clients can count on. We have yearly TPOS for private vehicles from trusted Insurance Companies "
         />
         <WhyChooseCard
           image="/support.png"
           title="Dependable Customer Support"
-          description="We’re here when you need us — with real people ready to help, answer questions, and guide you every step of the way."
+          description="We’re here when you need us — Including Weekends and Public Holidays! With our 24-hour Customer Service ready to help, answer questions, and guide you every step of the way"
         />
         <WhyChooseCard
           image="/fast.png"
           title="Fast & Hassle-Free Process"
-          description="We value your time. Our simplified application and claim processes ensure efficiency without the stress."
+          description="We value your time. Our simplified application and claim processes ensure efficiency without the stress. Simply bring you log book and we will serve you"
         />
         <WhyChooseCard
           image="/coverage.png"
           title="Comprehensive Coverage Options"
-          description="From personal to business insurance, we offer plans that fit your life, your needs, and your peace of mind."
+          description="We offer plans that fit your needs! We also have TPOs starting at only Ksh 900!"
         />
       </div>
     </div>

@@ -3,13 +3,24 @@
 @tailwind utilities;
 
 @layer utilities {
-    .nav__link {
-        @apply relative text-base font-medium w-fit block 
-        after:block after:content-[''] 
-        after:absolute after:h-[3px]
-        after:bg-blue-900 after:w-full 
-        after:scale-x-0 after:hover:scale-x-100 
-        after:transition after:duration-300 
-        after:origin-right
-    }
+  .nav__link {
+    @apply relative text-base font-medium w-fit block;
+  }
+
+  .nav__link::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #1e40af; /* tailwind's blue-900 */
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+    display: block;
+  }
+
+  .nav__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

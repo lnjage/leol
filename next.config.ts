@@ -1,15 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* export-ADDED BEFORE BUILD */
-
-    output : 'export',
-    images : {
-      unoptimized:true,
-    }
-
-
-
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/your-repo-name',
+  assetPrefix: '/your-repo-name/',
 };
 
 export default nextConfig;

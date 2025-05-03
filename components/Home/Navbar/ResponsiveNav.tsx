@@ -3,7 +3,7 @@ import { useState } from 'react'
 import React from 'react'
 import Nav from './Nav'
 import MobileNav from './MobileNav'
-import Footer from '@/components/Footer/Footer'
+
 
 
 const ResponsiveNav = () => {

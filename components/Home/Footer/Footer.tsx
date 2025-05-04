@@ -96,10 +96,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* 👇 Copyright Section */}
-      <div className="bg-gray-200 text-center py-4 text-10px text-gray-500">
-        © {new Date().getFullYear()} Leol Insurance Agency. All rights reserved. Developed by <span className="text-black">njanja</span>.
-      </div>
+      {/* Copyright Section */}
+      <div className="bg-gray-200 text-center py-4 text-[0.6rem] sm:text-xs text-gray-600">
+  © {new Date().getFullYear()} Leol Insurance Agency. All rights reserved. Developed by <span className="text-gray-500">njanja</span>.
+</div>
+
     </>
   );
 };

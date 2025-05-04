@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 30s linear infinite',
+        marquee: 'marquee 6s linear infinite',
       },
       keyframes: {
         marquee: {

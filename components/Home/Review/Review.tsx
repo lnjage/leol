@@ -24,23 +24,23 @@ const responsive = {
 
   const reviews = [
     {
-      image: "leol/icon.png",
+      image: "./icon.png",
       name: "Martin mwiti",
       comment: "Friendly and helpful customer service!"
     },
     {
       name: "Japhlet Munene",
-      image: "leol/icon.png",
+      image: "./icon.png",
       comment: "really appreciate the professionalism, courtesy, dedication, sincerity, speed and cooperation you  have extended to me"
     },
     {
       name: "Paul Njuguna",
-      image: "leol/icon.png",
+      image: "./icon.png",
       comment: "Great TAT especially for us in matatu business who need the insurance certificate very fast"
     },
     {
       name: "Joseph",
-      image: "leol/icon.png",
+      image: "./icon.png",
       comment: "Well conversant with the industry"
     }
   ];

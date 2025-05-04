@@ -97,7 +97,7 @@ const Footer = () => {
       </div>
 
       {/* 👇 Copyright Section */}
-      <div className="bg-gray-200 text-center py-4 text-sm text-gray-700">
+      <div className="bg-gray-200 text-center py-4 text-xsm text-gray-700">
         © {new Date().getFullYear()} Leol Insurance Agency. All rights reserved. Developed by <span className="text-black">njanja</span>.
       </div>
     </>

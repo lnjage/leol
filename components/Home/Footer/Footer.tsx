@@ -3,19 +3,19 @@
 import React from 'react';
 import { FaFacebook, FaTiktok } from 'react-icons/fa';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
-import Image from 'next/image';
+
 
 const contactInfo = [
   {
-    icon: <MdEmail className="text-red-500" />,
+    icon: <MdEmail className="text-gray-900" />,
     text: 'leolinsuranceagency@gmail.com',
   },
   {
-    icon: <MdPhone className="text-green-500" />,
+    icon: <MdPhone className="text-gray-900" />,
     text: '+254 758 775539',
   },
   {
-    icon: <MdLocationOn className="text-blue-500 mt-1" />,
+    icon: <MdLocationOn className="text-gray-900"  />,
     text: (
       <div>
         <p>Krishna Mansion,</p>
@@ -57,7 +57,8 @@ const Footer = () => {
             {/* Logo / About */}
             <div>
             <div className="flex items-center space-x-2">
-                <Image src="./leol_icon.png" alt="Leol Insurance Logo" width={40} height={40} />
+                
+
                 <h2 className="text-xl text-blue-500 font-bold">Leol Insurance Agency</h2>
               </div>
               <p className="text-sm text-gray-600 mt-2">Follow us and stay connected.</p>

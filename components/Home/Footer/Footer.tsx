@@ -57,7 +57,7 @@ const Footer = () => {
             {/* Logo / About */}
             <div>
             <div className="flex items-center space-x-2">
-                <Image src="/leol_icon.png" alt="Leol Insurance Logo" width={40} height={40} />
+                <Image src="leol/leol_icon.png" alt="Leol Insurance Logo" width={40} height={40} />
                 <h2 className="text-xl text-blue-500 font-bold">Leol Insurance Agency</h2>
               </div>
               <p className="text-sm text-gray-600 mt-2">Follow us and stay connected.</p>

@@ -6,11 +6,11 @@ import Image from 'next/image';
 
 
 const partners = [
-  '/amaco.png',
-  '/apa.png',
-  '/geminia.png',
-  '/cic.png',
-  '/trident.png',
+  'leol/amaco.png',
+  'leol/apa.png',
+  'leol/geminia.png',
+  'leol/cic.png',
+  'leol/trident.png',
 ];
 
 

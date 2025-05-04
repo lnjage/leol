@@ -28,7 +28,7 @@ const Hero = () => {
 
           {/* Image Content */}
           <div className="hidden lg:block">
-            <Image src="/car.avif" alt="hero" width={700} height={700} />
+            <Image src="leol/car.avif" alt="hero" width={700} height={700} />
           </div>
         </div>
       </div>

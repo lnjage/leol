@@ -9,8 +9,8 @@ const font = Poppins ({
 });
 
 export const metadata: Metadata = {
-  title: "Leol Landing Page | Next 18",
-  description: "App Landing Page using Next Js 18",
+  title: "Leol Landing Page | Next 15",
+  description: "App Landing Page using Next Js 15",
 };
 
 export default function RootLayout({
@@ -20,10 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        
-        <base href="/leol/" />
-      </head>
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />
         {children}

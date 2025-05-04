@@ -40,7 +40,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <div className="flex items-center space-x-2">
-          <Image src="leol/leol.png" alt="Leol Logo" width={64} height={64} />
+          <Image src="./leol.png" alt="Leol Logo" width={64} height={64} />
             
 </div>
 

@@ -22,7 +22,7 @@ const WhyChoose: React.FC = () => {
         <WhyChooseCard
           image="./fast.png"
           title="Fast & Hassle-Free Process"
-          description="We value your time. Our simplified application and claim processes ensure efficiency without the stress. Simply bring you log book and we will serve you"
+          description="We value your time. Our simplified application and claim processes ensure efficiency without the stress. Simply bring your log book and we will serve you"
         />
         <WhyChooseCard
           image="./coverage.png"

@@ -9,8 +9,8 @@ const font = Poppins ({
 });
 
 export const metadata: Metadata = {
-  title: "Leol Landing Page | Next 15",
-  description: "App Landing Page using Next Js 15",
+  title: "Leol Insurance Agency ",
+  description: "Leol Insurance Agency Website",
 };
 
 export default function RootLayout({

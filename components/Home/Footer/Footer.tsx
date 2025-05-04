@@ -85,7 +85,7 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h3 className="text-md font-semibold text-gray-800 mb-2">Contact Info</h3>
+              <h3 className="text-md font-semibold text-gray-800 mb-2">Contact Information</h3>
               {contactInfo.map((item, idx) => (
                 <div key={idx} className="flex items-start text-sm text-gray-600 mb-2">
                   <span className="mr-2 text-lg">{item.icon}</span>

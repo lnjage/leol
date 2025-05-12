@@ -9,7 +9,7 @@ type Props = {
 
 const WhyChooseCard = ({ image, title, description }: Props) => {
   return (
-    <div className="text-center">
+    <div className="text-center min-w-[250px] max-w-[300px] flex-shrink-0">
       <Image 
         src={image} 
         alt={title} 

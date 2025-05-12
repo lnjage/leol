@@ -4,12 +4,14 @@ import WhyChooseCard from './WhyChooseCard'
 const WhyChoose: React.FC = () => {
   return (
     <div className="pt-16 pb-16">
-      <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
-        Why Choose Us
-      </h1>
+  <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
+    Why Choose Us
+  </h1>
 
-      <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
-        <WhyChooseCard
+  <div className="mt-20 w-[90%] mx-auto flex flex-wrap xl:flex-nowrap gap-12 overflow-x-auto">
+    
+    
+    <WhyChooseCard
           image="./safetrust.png"
           title="Safe and Trusted"
           description="Our reputation is built on years of reliability, transparency, and delivering results our clients can count on. We have yearly TPOS for private vehicles from trusted Insurance Companies "
@@ -27,7 +29,13 @@ const WhyChoose: React.FC = () => {
         <WhyChooseCard
           image="./coverage.png"
           title="Comprehensive Coverage Options"
-          description="We offer plans that fit your needs! We also have TPOs starting at only Ksh 900!"
+          description="We offer plans that fit your needs!"
+        />
+        <WhyChooseCard
+          image="./tpo.png"
+          title="Third Party Insurance"
+          description="Protect yourself, with TPOs starting at only Ksh 900!"
+        
         />
       </div>
     </div>
